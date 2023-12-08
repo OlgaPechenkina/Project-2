@@ -9,9 +9,9 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int FinalAmount = initialBalance +addend+ bonus;
+        int finalBalance = initialBalance + addend + bonus;
 
-        System.out.println("Итоговый счёт:" + FinalAmount);
+        System.out.println("Итоговый счёт:" + finalBalance);
         System.out.println("Количество бонусных рублей:" + bonus);
     }
 }
